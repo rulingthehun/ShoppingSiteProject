@@ -1,2 +1,7 @@
-package database;public class ItemNotFoundException {
+package database;
+
+public class ItemNotFoundException extends Exception {
+    public ItemNotFoundException(String message) {
+        super(message);
+    }
 }
